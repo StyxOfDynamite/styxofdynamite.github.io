@@ -8,6 +8,11 @@
 body {
   font-family: 'aaarghnormal'; }
 
+.container {
+  padding-left: 33.33333%;
+  width: 33.33333%; }
+
+/* section backgrounds */
 .section {
   text-align: center; }
 
@@ -90,3 +95,11 @@ body {
   /* Opera 11.10+ */
   background-image: linear-gradient(top, #8493ca, #8882be);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#8493ca', EndColorStr='#8882be'); }
+
+/* custom menu */
+#fullPage-nav li span {
+  background: white;
+  border: white; }
+#fullPage-nav li .active span {
+  background: white;
+  border: 1px solid black; }

@@ -1,7 +1,9 @@
 @import 'mixins';
 @import 'colours';
 @import 'typography';
+@import 'layout';
 
+/* section backgrounds */
 .section {
 	text-align:center;
 }
@@ -24,4 +26,20 @@
 
 #will-do {
 	@include linear-gradient($blue, $blue-violet);
+}
+
+/* custom menu */
+#fullPage-nav {
+	li {
+		span {
+			background: $white;
+			border: $white;
+		}
+		.active {
+			span {
+				background: $white;
+				border: 1px solid $black;
+			}
+		}
+	}
 }
