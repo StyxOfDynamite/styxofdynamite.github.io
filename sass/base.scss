@@ -1,0 +1,27 @@
+@import 'mixins';
+@import 'colours';
+@import 'typography';
+
+.section {
+	text-align:center;
+}
+
+#who {
+	@include linear-gradient($green, $green-cyan);
+}
+
+#studied {
+	@include linear-gradient($green-cyan, $cyan);
+}
+
+#worked {
+	@include linear-gradient($cyan, $cyan-blue);
+}
+
+#working {
+	@include linear-gradient($cyan-blue, $blue);	
+}
+
+#will-do {
+	@include linear-gradient($blue, $blue-violet);
+}
