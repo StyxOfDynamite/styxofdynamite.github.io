@@ -1,4 +1,22 @@
 .container {
-	padding-left: (100% / 3);
-	width: (100% / 3);
+
+	@include breakpoint(smallest) {
+		padding-left: 5%;
+		width: 80%;
+	}
+
+	@include breakpoint(small) {
+    	padding-left: 12.5%;
+    	width: 75%;
+    }
+
+    @include breakpoint(medium) {
+		padding-left: (100% / 3);
+		width: (100% / 3);
+	}
+
+    @include breakpoint(large) {
+		padding-left: (100% / 3);
+		width: (100% / 3);
+	}
 }
