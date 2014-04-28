@@ -13,6 +13,19 @@ p {
 
 @media (min-width: 20em) {
   .container {
+    font-size: 0.75em; } }
+@media (min-width: 37.5em) {
+  .container {
+    font-size: 0.85em; } }
+@media (min-width: 50em) {
+  .container {
+    font-size: 0.95em; } }
+@media (min-width: 64.375em) {
+  .container {
+    font-size: 1em; } }
+
+@media (min-width: 20em) {
+  .container {
     padding-left: 5%;
     width: 80%; } }
 @media (min-width: 37.5em) {
@@ -21,8 +34,8 @@ p {
     width: 75%; } }
 @media (min-width: 50em) {
   .container {
-    padding-left: 33.33333%;
-    width: 33.33333%; } }
+    padding-left: 25%;
+    width: 50%; } }
 @media (min-width: 64.375em) {
   .container {
     padding-left: 33.33333%;

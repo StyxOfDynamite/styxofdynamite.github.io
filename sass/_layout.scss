@@ -11,8 +11,8 @@
     }
 
     @include breakpoint(medium) {
-		padding-left: (100% / 3);
-		width: (100% / 3);
+		padding-left: 25%;
+		width: 50%;
 	}
 
     @include breakpoint(large) {

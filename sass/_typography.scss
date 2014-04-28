@@ -17,3 +17,22 @@ body {
 p {
 	line-height: 1.9em;
 }
+
+.container {
+
+	@include breakpoint(smallest) {
+		font-size: 0.75em;
+	}
+
+	@include breakpoint(small) {
+    	font-size: 0.85em;
+    }
+
+    @include breakpoint(medium) {
+		font-size: 0.95em;
+	}
+
+    @include breakpoint(large) {
+		font-size: 1em;
+	}
+}
