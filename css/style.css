@@ -46,84 +46,84 @@ p {
   text-align: center; }
 
 #who {
-  background-color: #7bcdc8;
+  background-color: #e34336;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#82ca9d), to(#7bcdc8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ef9790), to(#e34336));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -webkit-linear-gradient(top, #ef9790, #e34336);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -moz-linear-gradient(top, #ef9790, #e34336);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -ms-linear-gradient(top, #ef9790, #e34336);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -o-linear-gradient(top, #ef9790, #e34336);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #82ca9d, #7bcdc8);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#82ca9d', EndColorStr='#7bcdc8'); }
+  background-image: linear-gradient(top, #ef9790, #e34336);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#ef9790', EndColorStr='#e34336'); }
 
 #studied {
-  background-color: #6ecff6;
+  background-color: #3a5d79;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7bcdc8), to(#6ecff6));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6491b5), to(#3a5d79));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #7bcdc8, #6ecff6);
+  background-image: -webkit-linear-gradient(top, #6491b5, #3a5d79);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #7bcdc8, #6ecff6);
+  background-image: -moz-linear-gradient(top, #6491b5, #3a5d79);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #7bcdc8, #6ecff6);
+  background-image: -ms-linear-gradient(top, #6491b5, #3a5d79);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #7bcdc8, #6ecff6);
+  background-image: -o-linear-gradient(top, #6491b5, #3a5d79);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #7bcdc8, #6ecff6);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#7bcdc8', EndColorStr='#6ecff6'); }
+  background-image: linear-gradient(top, #6491b5, #3a5d79);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#6491b5', EndColorStr='#3a5d79'); }
 
 #worked {
-  background-color: #7ea7d8;
+  background-color: #f0a341;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#6ecff6), to(#7ea7d8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d19f), to(#f0a341));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #6ecff6, #7ea7d8);
+  background-image: -webkit-linear-gradient(top, #f8d19f, #f0a341);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #6ecff6, #7ea7d8);
+  background-image: -moz-linear-gradient(top, #f8d19f, #f0a341);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #6ecff6, #7ea7d8);
+  background-image: -ms-linear-gradient(top, #f8d19f, #f0a341);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #6ecff6, #7ea7d8);
+  background-image: -o-linear-gradient(top, #f8d19f, #f0a341);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #6ecff6, #7ea7d8);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#6ecff6', EndColorStr='#7ea7d8'); }
+  background-image: linear-gradient(top, #f8d19f, #f0a341);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f8d19f', EndColorStr='#f0a341'); }
 
 #working {
-  background-color: #8493ca;
+  background-color: #56a9f1;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7ea7d8), to(#8493ca));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b4d9f9), to(#56a9f1));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #7ea7d8, #8493ca);
+  background-image: -webkit-linear-gradient(top, #b4d9f9, #56a9f1);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #7ea7d8, #8493ca);
+  background-image: -moz-linear-gradient(top, #b4d9f9, #56a9f1);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #7ea7d8, #8493ca);
+  background-image: -ms-linear-gradient(top, #b4d9f9, #56a9f1);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #7ea7d8, #8493ca);
+  background-image: -o-linear-gradient(top, #b4d9f9, #56a9f1);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #7ea7d8, #8493ca);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#7ea7d8', EndColorStr='#8493ca'); }
+  background-image: linear-gradient(top, #b4d9f9, #56a9f1);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#b4d9f9', EndColorStr='#56a9f1'); }
 
 #will-do {
-  background-color: #8882be;
+  background-color: #5bbb84;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#8493ca), to(#8882be));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3d9ba), to(#5bbb84));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #8493ca, #8882be);
+  background-image: -webkit-linear-gradient(top, #a3d9ba, #5bbb84);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #8493ca, #8882be);
+  background-image: -moz-linear-gradient(top, #a3d9ba, #5bbb84);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #8493ca, #8882be);
+  background-image: -ms-linear-gradient(top, #a3d9ba, #5bbb84);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #8493ca, #8882be);
+  background-image: -o-linear-gradient(top, #a3d9ba, #5bbb84);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #8493ca, #8882be);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#8493ca', EndColorStr='#8882be'); }
+  background-image: linear-gradient(top, #a3d9ba, #5bbb84);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#a3d9ba', EndColorStr='#5bbb84'); }
 
 /* custom menu */
 #fullPage-nav li span {

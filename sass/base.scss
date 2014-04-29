@@ -9,23 +9,23 @@
 }
 
 #who {
-	@include linear-gradient($green, $green-cyan);
+	@include linear-gradient($s-red-light, $s-red-dark);
 }
 
 #studied {
-	@include linear-gradient($green-cyan, $cyan);
+	@include linear-gradient($s-dark-blue-light, $s-dark-blue-dark);
 }
 
 #worked {
-	@include linear-gradient($cyan, $cyan-blue);
+	@include linear-gradient($s-orange-light, $s-orange-dark);
 }
 
 #working {
-	@include linear-gradient($cyan-blue, $blue);	
+	@include linear-gradient($s-light-blue-light, $s-light-blue-dark);	
 }
 
 #will-do {
-	@include linear-gradient($blue, $blue-violet);
+	@include linear-gradient($s-green-light, $s-green-dark);
 }
 
 /* custom menu */

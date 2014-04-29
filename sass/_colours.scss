@@ -1,5 +1,7 @@
 $white: #FFFFFF;
 $black: #000000;
+$fade: 10%;
+
 $green: #82CA9D;
 $green-cyan: #7BCDC8;
 $cyan: #6ECFF6;
@@ -10,3 +12,23 @@ $violet: #A187BE;
 $violet-magenta: #BC8DBF;
 $magenta: #F49AC2;
 
+
+$s-red: #E96D63;
+$s-red-light: lighten($s-red, $fade);
+$s-red-dark : darken($s-red, $fade);
+
+$s-green: #7FCA9F;
+$s-green-light: lighten($s-green, $fade);
+$s-green-dark : darken($s-green, $fade);
+
+$s-orange: #F4BA70;
+$s-orange-light: lighten($s-orange, $fade);
+$s-orange-dark : darken($s-orange, $fade);
+
+$s-light-blue: #85C1F5;
+$s-light-blue-light: lighten($s-light-blue, $fade);
+$s-light-blue-dark : darken($s-light-blue, $fade);
+
+$s-dark-blue: #4A789C;
+$s-dark-blue-light: lighten($s-dark-blue, $fade);
+$s-dark-blue-dark : darken($s-dark-blue, $fade);
