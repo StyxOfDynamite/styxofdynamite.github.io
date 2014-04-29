@@ -46,20 +46,20 @@ p {
   text-align: center; }
 
 #who {
-  background-color: #7bcdc8;
+  background-color: #a187be;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#82ca9d), to(#7bcdc8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f49ac2), to(#a187be));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -webkit-linear-gradient(top, #f49ac2, #a187be);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -moz-linear-gradient(top, #f49ac2, #a187be);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -ms-linear-gradient(top, #f49ac2, #a187be);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #82ca9d, #7bcdc8);
+  background-image: -o-linear-gradient(top, #f49ac2, #a187be);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #82ca9d, #7bcdc8);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#82ca9d', EndColorStr='#7bcdc8'); }
+  background-image: linear-gradient(top, #f49ac2, #a187be);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f49ac2', EndColorStr='#a187be'); }
 
 #studied {
   background-color: #6ecff6;
