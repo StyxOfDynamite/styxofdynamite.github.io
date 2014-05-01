@@ -38,18 +38,23 @@ $magenta: #F49AC2;
 	@include linear-gradient($blue, $blue-violet);
 }
 
-/* custom menu */
+/* custom menu overrides */
 #fullPage-nav {
 	li {
-		span {
-			background: $white;
-			border: $white;
-		}
+		padding: 1em;
+		
 		.active {
 			span {
-				background: $white;
-				border: 1px solid $black;
+				background: none;
 			}
 		}
+
+		a {
+			text-decoration: none;
+			color: $black;
+		}
+	}
+	span {
+		border: none;
 	}
 }
