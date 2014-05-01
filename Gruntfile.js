@@ -8,6 +8,16 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		uglify: {
+    		options: {
+    			mangle: false
+    		},
+			my_target: {
+    			files: {
+        			'js/fullpage.min.js': ['js/fullPage.js']
+      			}
+    		},
+    	},
 		watch: {
 			css: {
 				files: '**/*.scss',
@@ -17,5 +27,6 @@ module.exports = function(grunt) {
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.registerTask('default',['watch']);
 }
