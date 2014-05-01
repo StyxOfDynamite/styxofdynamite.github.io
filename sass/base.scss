@@ -8,24 +8,34 @@
 	text-align:center;
 }
 
+$green: #82CA9D;
+$green-cyan: #7BCDC8;
+$cyan: #6ECFF6;
+$cyan-blue: #7EA7D8;
+$blue: #8493CA;
+$blue-violet: #8882BE;
+$violet: #A187BE;
+$violet-magenta: #BC8DBF;
+$magenta: #F49AC2;
+
 #who {
-	@include linear-gradient($s-purple-light, $s-purple-dark);
+	@include linear-gradient($green, $green-cyan);
 }
 
 #studied {
-	@include linear-gradient($s-dark-blue-light, $s-dark-blue-dark);
+	@include linear-gradient($green-cyan, $cyan);
 }
 
 #worked {
-	@include linear-gradient($s-orange-light, $s-orange-dark);
+	@include linear-gradient($cyan, $cyan-blue);
 }
 
 #working {
-	@include linear-gradient($s-light-blue-light, $s-light-blue-dark);	
+	@include linear-gradient($cyan-blue, $blue);	
 }
 
 #will-do {
-	@include linear-gradient($s-green-light, $s-green-dark);
+	@include linear-gradient($blue, $blue-violet);
 }
 
 /* custom menu */
