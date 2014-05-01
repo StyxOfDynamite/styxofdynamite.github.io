@@ -8,16 +8,6 @@
 	text-align:center;
 }
 
-$green: #82CA9D;
-$green-cyan: #7BCDC8;
-$cyan: #6ECFF6;
-$cyan-blue: #7EA7D8;
-$blue: #8493CA;
-$blue-violet: #8882BE;
-$violet: #A187BE;
-$violet-magenta: #BC8DBF;
-$magenta: #F49AC2;
-
 #who {
 	@include linear-gradient($green, $green-cyan);
 }
@@ -46,6 +36,7 @@ $magenta: #F49AC2;
 		.active {
 			span {
 				background: none;
+				color: $white;
 			}
 		}
 

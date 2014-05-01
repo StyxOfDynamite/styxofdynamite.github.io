@@ -129,7 +129,8 @@ p {
 #fullPage-nav li {
   padding: 1em; }
   #fullPage-nav li .active span {
-    background: none; }
+    background: none;
+    color: white; }
   #fullPage-nav li a {
     text-decoration: none;
     color: black; }
