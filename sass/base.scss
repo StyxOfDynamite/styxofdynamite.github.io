@@ -13,19 +13,19 @@
 }
 
 #studied {
-	@include linear-gradient($green-cyan, $cyan);
-}
-
-#worked {
 	@include linear-gradient($cyan, $cyan-blue);
 }
 
+#worked {
+	@include linear-gradient($blue, $blue-violet);
+}
+
 #working {
-	@include linear-gradient($cyan-blue, $blue);	
+	@include linear-gradient($violet, $violet-magenta);	
 }
 
 #will-do {
-	@include linear-gradient($blue, $blue-violet);
+	@include linear-gradient($magenta, $s-purple);
 }
 
 /* custom menu overrides */
