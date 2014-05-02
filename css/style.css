@@ -110,20 +110,20 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#a187be', EndColorStr='#bc8dbf'); }
 
 #will-do {
-  background-color: #966da1;
+  background-color: #f6989d;
   /* Fallback Color */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f49ac2), to(#966da1));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f49ac2), to(#f6989d));
   /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #f49ac2, #966da1);
+  background-image: -webkit-linear-gradient(top, #f49ac2, #f6989d);
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image: -moz-linear-gradient(top, #f49ac2, #966da1);
+  background-image: -moz-linear-gradient(top, #f49ac2, #f6989d);
   /* FF3.6 */
-  background-image: -ms-linear-gradient(top, #f49ac2, #966da1);
+  background-image: -ms-linear-gradient(top, #f49ac2, #f6989d);
   /* IE10 */
-  background-image: -o-linear-gradient(top, #f49ac2, #966da1);
+  background-image: -o-linear-gradient(top, #f49ac2, #f6989d);
   /* Opera 11.10+ */
-  background-image: linear-gradient(top, #f49ac2, #966da1);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f49ac2', EndColorStr='#966da1'); }
+  background-image: linear-gradient(top, #f49ac2, #f6989d);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f49ac2', EndColorStr='#f6989d'); }
 
 /* custom menu overrides */
 #fullPage-nav li {
