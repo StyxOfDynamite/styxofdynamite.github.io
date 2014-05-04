@@ -125,6 +125,22 @@ p {
   background-image: linear-gradient(top, #f49ac2, #f6989d);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f49ac2', EndColorStr='#f6989d'); }
 
+#contact {
+  background-color: #f9ad81;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7977a), to(#f9ad81));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #f7977a, #f9ad81);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #f7977a, #f9ad81);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #f7977a, #f9ad81);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #f7977a, #f9ad81);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #f7977a, #f9ad81);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f7977a', EndColorStr='#f9ad81'); }
+
 /* custom menu overrides */
 #fullPage-nav li {
   padding: 1em; }

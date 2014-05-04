@@ -28,6 +28,10 @@
 	@include linear-gradient($magenta, $magenta-red);
 }
 
+#contact {
+	@include linear-gradient($red, $red-orange);
+}
+
 /* custom menu overrides */
 #fullPage-nav {
 	li {
