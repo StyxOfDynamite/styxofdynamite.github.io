@@ -27,23 +27,19 @@ p {
 @media (min-width: 20em) {
   .container {
     padding-left: 5%;
-    width: 80%;
-    padding-right: 5%; } }
+    width: 80%; } }
 @media (min-width: 37.5em) {
   .container {
     padding-left: 12.5%;
-    width: 75%;
-    padding-right: 12.5%; } }
+    width: 75%; } }
 @media (min-width: 50em) {
   .container {
     padding-left: 25%;
-    width: 50%;
-    padding-right: 12.5%; } }
+    width: 50%; } }
 @media (min-width: 64.375em) {
   .container {
     padding-left: 33.33333%;
-    width: 33.33333%;
-    padding-right: 33.33333%; } }
+    width: 33.33333%; } }
 
 /* section backgrounds */
 .section {
@@ -128,6 +124,22 @@ p {
   /* Opera 11.10+ */
   background-image: linear-gradient(top, #f49ac2, #f6989d);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f49ac2', EndColorStr='#f6989d'); }
+
+#contact {
+  background-color: #f9ad81;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7977a), to(#f9ad81));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #f7977a, #f9ad81);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #f7977a, #f9ad81);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #f7977a, #f9ad81);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #f7977a, #f9ad81);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #f7977a, #f9ad81);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f7977a', EndColorStr='#f9ad81'); }
 
 /* custom menu overrides */
 #fullPage-nav li {
